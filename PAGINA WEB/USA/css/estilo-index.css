@@ -1,0 +1,190 @@
+
+/*****MAIN******/
+.main{
+	background: url('../img/textura.png');
+	background-repeat: repeat;
+}
+
+.main .acerca-de .contenedor{
+	overflow: visible;
+	position: relative;
+}
+
+.main .acerca-de .foto{
+	width: 80%; 
+	position: absolute;
+	left: 0;
+	top: -50px;
+	z-index: 0;
+	box-shadow: 0px 0px 15px rgba(0,0,0,.35);
+}
+
+.main .acerca-de .foto img{
+	vertical-align: top; /*Quitamos la sombra que esta por debajo de la foto*/
+	width: 100%;
+}
+
+.main .acerca-de .contenedor .articulo{
+	background: #FFFFFF;
+	padding: 40px;
+	width: 40%;
+	position: relative;
+	top: 500px;
+	z-index: 1;
+	float: right;
+	box-shadow: 0px 0px 15px rgba(0,0,0,.35);
+}
+
+.main .acerca-de .contenedor .articulo h3{
+	font-size: 40px;
+	font-weight: 300;
+	margin-bottom: 25px; /*Separacion entre elementos, hacia abajo*/
+}
+
+.main .acerca-de .contenedor .articulo p{
+	line-height: 28px;
+	margin-bottom: 15px;
+	text-align: justify;
+}
+
+/********MENU********/
+.main .menu{
+	padding-top: 580px;
+	margin-bottom: 50px;
+}
+
+.main .menu .titulo{
+	font-size: 40px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.main .menu .contenedor-menu,
+.main .menu .contenedor-menu2{
+	border: 1px solid #000000;
+	background: transparent;
+	padding: 10px;
+	overflow: hidden;
+}
+/*Separacion del menu*/
+.main .menu article{
+	width: 50%;
+	float: left; /*Pasamos los elementos a la izquierda*/
+	padding: 20px;
+}
+
+.main .menu .categoria{
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.main .menu .platillo{
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	border-bottom: 4px dotted #000000; /*Puntitos de sepracion entre cada platillo*/
+	overflow: hidden;
+}
+
+.main .menu .nombre{
+	font-size: 20px;
+	margin-bottom: 15px;
+	float: left;
+}
+
+.main .menu .precio{
+	font-size: 20px;
+	margin-bottom: 15px;
+	float: right;
+}
+
+.main .menu article .descripcion{
+	font-size: 16px;
+	color: #676767;
+	clear: both; /*Nos ayuda a poner la descripcion debajo del nombre*/
+}
+
+/*******GALERIA*******/
+.main .galeria{
+	overflow: hidden;
+}
+
+.main .galeria .foto{
+	width: 25%;
+	float: left;
+}
+
+.main .galeria .foto img{
+	width: 100%;
+	vertical-align: top; /*Quita el border sobrante de la parte de abajo*/
+	opacity: .7
+}
+
+.main .galeria .foto img:hover{
+	opacity: 1;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+/********UBICACION******/
+.main .ubicacion{
+	background: #FFFFFF;
+	padding: 60px 0px;
+	overflow: hidden;
+}
+
+.main .ubicacion .titulo{
+	text-align: center;
+	font-size: 40px;
+	line-height: 40px;
+	font-weight: 300;
+}
+
+.main .ubicacion .direccion{
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+
+.main .ubicacion .horarios{
+	margin-left: 80px;
+	width: 50%;
+	
+	overflow: hidden;
+}
+
+.main .ubicacion .horarios p{
+	margin-left: 130px;
+}
+
+.main .ubicacion .direccion .calle{
+	margin-bottom: 15px;
+}
+
+.main .ubicacion .horarios h4{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.main .ubicacion .horarios .entre-semana,
+.main .ubicacion .horarios .fin-semana{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+
+
+/********FOOTER*********/
+footer{
+	background: #000000;
+}
+
+footer .copyright{
+	text-align: center;
+	padding: 15px 0px;
+	color: #FFFFFF;
+}

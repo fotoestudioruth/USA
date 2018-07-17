@@ -1,0 +1,44 @@
+/*************************************CONTENIDO***********************************************/
+/*Contenido*/
+section{
+    color: #fff;
+	width: 100%;
+	max-width: 1100px;
+	margin: auto;
+	position: relative;
+}
+
+article{
+	padding: 20px;
+}
+
+article h2{
+    color: #000;
+	font-size: 40px;
+    font-weight: 100;
+}
+
+article p{
+    color: #000;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.contenido-mis-vis h2{
+	text-align: center;
+}
+
+
+/**Lista*/
+ol{
+	font-size: 18px;
+	width: 100%;
+	max-width: 100px;
+	margin: auto;
+}
+ol li{
+	color: #000;
+	padding: 10px;
+
+}

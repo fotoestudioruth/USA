@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="../css/estilo-general.css">
+    <link rel="stylesheet" href="../css/estilo-formulario.css">
+    <link rel="stylesheet" href="../css/font-awesome.css">
+    
+    <script src="../js/jquery-3.1.0.min.js"></script>
+	<script src="../js/efect.js"></script>
+    <script src="../js/efect-parallax.js"></script>
+</head>
+<body>
+    
+   <!--SECCION DEL MENU-->
+   <header style="background-image: url('../img/contacto.jpg');">
+	 	<div class="contenedor">
+	 		<nav class="menu">
+	 			<a href="../index.html">Inicio</a>
+	 			<a href="conocenos.html">Conocenos</a>
+	 			<a href="../Slider/Productos/productos.html">Productos</a>
+	 			<a href="../Slider/Servicios/servicios.html">Servicios</a>
+	 			<a href="contacto.html">Contacto</a>
+	 		</nav>
+
+	 		<div class="textos">
+	 			<h1 class="nombre">Estudio Digital USA</h1>
+	 			<h3>Contáctanos</h3>
+	 		</div>
+	 	</div>
+	 </header>
+   
+   
+  <div class="tit-cont">
+  	<h2 class="cont">Envianos tu Comentario o Duda</h2>
+  </div>
+   
+    <section class="form_wrap">
+        <section class="cantact_info">
+            <section class="info_title">
+                <span class="fa fa-user-circle"></span>
+                <h2>INFORMACIÓN<br>DE CONTACTO</h2>
+            </section>
+            <section class="info_items">
+                <p><span class="fa fa-envelope"></span>estudiodigitalusa18@gmail.com</p>
+                <p><span class="fa fa-mobile"></span> +1(585) 902-8665</p>
+            </section>
+        </section>
+        
+        
+        <form action="../Php/contacto.php" method="POST" class="form_contact">
+            <h2>Envia un mensaje</h2>
+            <div class="user_info">
+                <label for="names">Nombres *</label>
+                <input type="text" id="names" name="nombre" required>
+
+                <label for="email">Correo electronico *</label>
+                <input type="email" id="email" name="correo" required>
+                
+                <label for="phone">Telefono / Celular*</label>
+                <input type="text" id="phone" name="telefono">
+
+                <label for="mensaje">Mensaje *</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <input type="submit" value="Enviar Mensaje" id="btnSend">
+                
+            </div>
+        </form>
+
+    </section>
+
+</body>
+</html>
